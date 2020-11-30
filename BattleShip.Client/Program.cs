@@ -36,6 +36,7 @@ namespace BattleShip.Client
             var provider = serviceScope.ServiceProvider;
             _commandSender = provider.GetRequiredService<ICommandSender>();
             _letterBasedBoardInputValidator = provider.GetRequiredService<IGameInputValidator>();
+            Console.OutputEncoding = System.Text.Encoding.UTF8;
         }
         private static async Task startGame()
         {
