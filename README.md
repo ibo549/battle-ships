@@ -16,7 +16,7 @@ It looks like this on terminal:
 - `dotnet run`
 - p.s. use a terminal that has full unicode support to display emojis like 🌊🌊🌊🌊🌊 ❌ ✅ 💥 🛳 💀 🎉 
 
-zsh on macOS and Windows Terminal supports emojis.
+macOS terminal (tested on zsh shell) and Windows Terminal (PowerShell + Command Prompt) supports emojis.
 
 Old school cmd on Windows doesn't support emojis, you can use the modern [Windows Terminal](https://github.com/microsoft/terminal/releases/tag/v1.4.3243.0)
 
@@ -66,6 +66,10 @@ A single shot can cause 3 events in the system for example - ShipHit, ShipSunk, 
 
 [*1]It won't let you create a dimension more than the letters in the English alphabet - as one coordinate of the board is a letter from the alphabet for this client.
 Other clients can implement a different coordinate input/display mechanism, as long as they translate it to correct `BoardPoint` in _Domain_
+
+BTW it looks like this on a Windows Terminal
+
+<img src="https://github.com/ibo549/battle-ships/blob/main/winterminal.PNG" width="500">
 
 
 ## Further Work 
