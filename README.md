@@ -1,7 +1,10 @@
 # battle-ships with Domain-Driven-Design
 
-
 An implementation of the popular board game 'Battle Ships' using Domain-Driven-Design as the architecture with event sourcing.
+
+It looks like this on terminal:
+
+<img src="https://github.com/ibo549/battle-ships/blob/main/game_looks_like_this_in_macos_terminal.png" width="500">
 
 ## How to build 
 - Install [.NET 5](https://dotnet.microsoft.com/download/dotnet/5.0)
