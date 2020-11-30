@@ -2,7 +2,7 @@
 
 An implementation of the popular board game 'Battle Ships' using Domain-Driven-Design as the architecture with event sourcing.
 
-It looks like this on terminal:
+The client application looks like this on macOS terminal:
 
 <img src="https://github.com/ibo549/battle-ships/blob/main/game_looks_like_this_in_macos_terminal.png" width="500">
 
